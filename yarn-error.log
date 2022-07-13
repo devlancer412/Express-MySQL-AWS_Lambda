@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mysql seqelize
+
+PATH: 
+  C:\Users\Administrator\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Administrator\AppData\Local\Programs\Python\Python310;C:\Users\Administrator\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/seqelize: Not found
+      at Request.params.callback [as _callback] (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "Express-MySQL-AWS_Lambda",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/devlancer412/Express-MySQL-AWS_Lambda.git",
+    "author": "Joseph Anderson <devanderson0412@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
